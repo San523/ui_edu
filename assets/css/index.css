@@ -1,0 +1,464 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.index-mian {
+  padding-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.block {
+  display: flex;
+  width: 1280px;
+  justify-content: center;
+  margin: auto;
+}
+
+.block_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 1280px;
+  margin: 0;
+  /*background: blue;*/
+}
+
+.block-child {
+  width: 305px;
+
+  margin: 20px 20px 0 0;
+}
+
+.block-child img:hover {
+
+  transition: all 0.3s ease-out 0s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.block-child:nth-child(4n) {
+  margin: 20px 0 0 0;
+}
+
+.block-child img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+.block_title {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 3rem;
+}
+
+.block_title img {
+  margin: 0 1rem;
+}
+
+.title_text {
+  color: #1F2D3D;
+  font-size: 1.5rem;
+  margin: 0 0.25rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.title_cut {
+  color: #99A9BF;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.nearby {
+  height: 60px;
+  width: 1280px;
+  margin: auto;
+  /*background: red;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nearby_left {
+  display: flex;
+}
+
+.nearby_right {}
+
+.nearby img {}
+
+.nearby_community {
+  font-size: 0.85rem;
+  color: #475669;
+  margin: 0 10px;
+}
+
+.nearby_text {
+  font-size: 0.85rem;
+  color: #8492A6;
+}
+
+.nearby a {
+  font-size: 0.85rem;
+  color: #00C58C;
+  margin: 0 2px;
+}
+
+.nearby_shop {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 24px;
+  border: 2px solid #fff;
+}
+
+.shop1 {
+  position: relative;
+  z-index: 1;
+  right: -20px;
+}
+
+.shop2 {
+  position: relative;
+  z-index: 2;
+  right: -10px;
+}
+
+.shop3 {
+  position: relative;
+  z-index: 3;
+  right: 0px;
+}
+
+
+.recommend {
+
+  width: 1280px;
+  margin: auto;
+
+  /*background: red;*/
+  /*display: flex;
+  align-items: center;*/
+}
+
+.recommend_list {
+  width: 100%;
+  padding: 20px 0;
+  background: #fff;
+  border-bottom: 1px solid #EFF2F7;
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+}
+
+.list_img {
+  display: flex;
+  /*justify-content: space-between;*/
+  width: 100%;
+}
+
+.list_img img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 8px;
+  border: 1px solid #EFF2F7;
+}
+
+.list_text {
+  margin-left: 20px;
+  /*height: 10rem;*/
+  display: flex;
+  flex-flow: column;
+  /*align-content: space-between;*/
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.recommend_name {
+  color: #475669;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.recommend_text {
+  color: #5E6D82;
+  font-size: 1rem;
+}
+
+.recommend_right {
+  height: 10rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.recommend_btn {
+  width: 160px;
+  height: 44px;
+  background: #00C58C;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+}
+
+.recommend_btn:hover {
+  transition: all 0.3s ease-out 0s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.recommend_nearby_text {
+  color: #8492A6;
+  font-size: 0.75rem;
+  width: 60px;
+}
+
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+.pc-page {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-page {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.pageing-btn {
+  width: 46%;
+  height: 40px;
+  background: #D3DCE6;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 40px;
+  color: #8492A6;
+}
+
+
+.pageactive {
+  background: #00C58C;
+  color: #ffffff
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*当屏幕尺寸小于1024px时，应用下面的CSS样式*/
+
+@media screen and (max-width: 1024px) {
+
+
+  .block {
+    width: 100%;
+  }
+
+  .block-child {
+    width: 23%;
+
+    margin: 1% 1% 0 1%;
+  }
+
+  .block-child:nth-child(4n) {
+    margin: 1% 1% 0 1%;
+  }
+
+  .block-child img {
+    width: 100%;
+  }
+
+  .nearby {
+    width: 100%;
+  }
+  .nearby_right {
+    margin-right: 10px;
+  }
+  .nearby_icon {
+    margin-left: 10px;
+  }
+
+  .recommend {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .nearby_community {
+    font-size: 0.85rem;
+    color: #475669;
+    margin: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 100px;
+  }
+
+  .shop1 {
+  position: relative;
+  z-index: 1;
+  right: -40px;
+}
+
+.shop2 {
+  position: relative;
+  z-index: 2;
+  right: -25px;
+}
+
+.shop3 {
+  position: relative;
+  z-index: 3;
+  right: -5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+
+@media screen and (max-width: 769px) {
+  .block {
+    width: 100%;
+  }
+  .block_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80rem;
+    margin: 0;
+  }
+
+  .block-child {
+    width: 46%;
+
+    margin: 2% 2% 0px 2%;
+  }
+
+  .block-child:nth-child(4n) {
+    margin: 2% 2% 0px 2%;
+  }
+
+  .block-child img {
+    width: 100%;
+  }
+
+  .block_title {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 1rem;
+  }
+
+  .title_text {
+    color: #1F2D3D;
+    font-size: 1.25rem;
+    margin: 0 0.25rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+
+  .title_cut {
+    color: #99A9BF;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+  }
+
+  .nearby {
+    width: 100%;
+  }
+  .nearby_right {
+    margin-right: 10px;
+  }
+  .nearby_icon {
+    margin-left: 10px;
+  }
+  .recommend {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .list_img img {
+    width: 6rem;
+    height: 6rem;
+  }
+  ..list_img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .recommend_list {
+    padding: 10px 0;
+  }
+  .secondary {
+    display: none;
+  }
+
+  .recommend_name {
+    font-size: 1rem;
+  }
+  .recommend_text {
+    font-size: 0.8rem;
+  }
+  .recommend_btn {
+    display: none;
+  }
+  .recommend_right {
+    display: none;
+  }
+  .pc-page {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .main_none {
+    display: none;
+  }
+  .mobile-page {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="23px" viewBox="0 0 51 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 23 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.72507225%" y1="1.72507225%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#21B2D2" offset="0%"></stop>
+            <stop stop-color="#57DC6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PC网页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-562.000000, -705.000000)">
+            <g id="Group-8" transform="translate(0.000000, 660.000000)">
+                <g id="Group-5" transform="translate(559.000000, 40.000000)">
+                    <g id="Group-23-Copy-2" transform="translate(27.000000, 17.000000) scale(-1, 1) translate(-27.000000, -17.000000) translate(0.000000, 5.000000)">
+                        <g id="Group-20" stroke="url(#linearGradient-1)" stroke-width="3">
+                            <rect id="Rectangle-18" x="1.5" y="1.5" width="19.9090909" height="19.9090909"></rect>
+                            <rect id="Rectangle-19" x="8.18181818" y="8.18181818" width="6.54545455" height="6.54545455"></rect>
+                        </g>
+                        <rect id="Rectangle-20" fill="url(#linearGradient-1)" x="31.0909091" y="3.27272727" width="6.54545455" height="6.54545455"></rect>
+                        <path d="M48.3308737,16.4217828 L50.7854191,16.4217828 C51.2372885,16.4217828 51.6036009,16.7880952 51.6036009,17.2399646 C51.6036009,17.6918339 51.2372885,18.0581464 50.7854191,18.0581464 L48.3308737,18.0581464 L48.3308737,20.5126918 C48.3308737,20.9645612 47.9645612,21.3308737 47.5126918,21.3308737 C47.0608225,21.3308737 46.69451,20.9645612 46.69451,20.5126918 L46.69451,18.0581464 L44.2399646,18.0581464 C43.7880952,18.0581464 43.4217828,17.6918339 43.4217828,17.2399646 C43.4217828,16.7880952 43.7880952,16.4217828 44.2399646,16.4217828 L46.69451,16.4217828 L46.69451,13.9672373 C46.69451,13.515368 47.0608225,13.1490555 47.5126918,13.1490555 C47.9645612,13.1490555 48.3308737,13.515368 48.3308737,13.9672373 L48.3308737,16.4217828 Z" id="Rectangle-14" fill="#DAD2FF" transform="translate(47.512692, 17.239965) rotate(45.000000) translate(-47.512692, -17.239965) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

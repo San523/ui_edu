@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="37px" viewBox="0 0 27 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>中间位置</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-47.1%" y="-21.4%" width="194.1%" height="153.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="PC网页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="附近培优" transform="translate(-775.000000, -254.000000)">
+            <g id="Group-9" transform="translate(0.000000, 80.000000)">
+                <g id="中间位置" transform="translate(780.000000, 177.000000)">
+                    <ellipse id="Oval-4" fill="#8492A6" cx="8.5" cy="28" rx="4.5" ry="2"></ellipse>
+                    <g id="Group-11" filter="url(#filter-1)">
+                        <rect id="Path" fill="#1F2D3D" x="7" y="12" width="3" height="16" rx="1.5"></rect>
+                        <circle id="Oval-2" stroke="#FFFFFF" fill="#2A3542" cx="8.5" cy="8.5" r="9"></circle>
+                        <circle id="Oval-3" fill="#00C58C" cx="8.5" cy="8.5" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.72507225%" y1="1.72507225%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#21B2D2" offset="0%"></stop>
+            <stop stop-color="#57DC6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PC网页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-82.000000, -1328.000000)">
+            <g id="Group-36-Copy" transform="translate(0.000000, 1215.000000)">
+                <g id="Pin-2" transform="translate(80.000000, 113.000000)">
+                    <rect id="Container" x="0" y="0" width="20" height="20"></rect>
+                    <g id="Shape" transform="translate(3.225806, 1.290323)" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5.61412704,4.76440306 C6.5159162,4.31116728 7.84154307,4.3924443 8.41987363,5.61755903 C8.78991686,6.40143665 8.59525108,7.80376455 7.51800466,8.35030263 C6.56274027,8.83498503 5.09195876,8.41521783 4.71225806,7.12391087 C4.33255737,5.83260392 5.1379581,5.00368474 5.61412704,4.76440306 L5.61412704,4.76440306 Z"></path>
+                        <path d="M12.997007,8.59804456 C11.9325574,12.5365081 7.56826072,17.6263918 6.71672764,17.6263918 C5.75284337,17.6263918 1.28798138,12.3236182 0.436448287,9.02379781 C-0.497532424,5.4046425 0.0106418357,0.401729298 6.18452943,0.082394413 C12.3583372,-0.236913868 13.9201862,5.18217493 12.997007,8.59804456 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="18px" viewBox="0 0 46 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 23 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.72507225%" y1="1.72507225%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#21B2D2" offset="0%"></stop>
+            <stop stop-color="#57DC6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PC网页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-567.000000, -726.000000)">
+            <g id="Group-36" transform="translate(0.000000, 680.000000)">
+                <g id="Group-5-Copy" transform="translate(564.000000, 40.000000)">
+                    <g id="Group-23-Copy-3" transform="translate(24.500000, 16.000000) scale(-1, 1) translate(-24.500000, -16.000000) translate(0.000000, 6.000000)">
+                        <path d="M11.0007572,3 L3.20587281,16.5011358 L18.7956416,16.5011358 L11.0007572,3 Z" id="Polygon" stroke="url(#linearGradient-1)" stroke-width="3"></path>
+                        <polygon id="Polygon-Copy" fill="url(#linearGradient-1)" points="11 8.5 14.0310889 13.75 7.96891109 13.75"></polygon>
+                        <polygon id="Polygon-Copy-2" fill="url(#linearGradient-1)" transform="translate(30.356817, 3.613068) scale(1, -1) translate(-30.356817, -3.613068) " points="30.3568172 1 33.3741284 6.22613621 27.3395061 6.22613621"></polygon>
+                        <path d="M43.7353254,13.4429021 L46.0580526,13.4429021 C46.4856549,13.4429021 46.832295,13.7895423 46.832295,14.2171445 C46.832295,14.6447468 46.4856549,14.9913869 46.0580526,14.9913869 L43.7353254,14.9913869 L43.7353254,17.3141141 C43.7353254,17.7417164 43.3886852,18.0883565 42.961083,18.0883565 C42.5334807,18.0883565 42.1868406,17.7417164 42.1868406,17.3141141 L42.1868406,14.9913869 L39.8641134,14.9913869 C39.4365111,14.9913869 39.089871,14.6447468 39.089871,14.2171445 C39.089871,13.7895423 39.4365111,13.4429021 39.8641134,13.4429021 L42.1868406,13.4429021 L42.1868406,11.1201749 C42.1868406,10.6925727 42.5334807,10.3459325 42.961083,10.3459325 C43.3886852,10.3459325 43.7353254,10.6925727 43.7353254,11.1201749 L43.7353254,13.4429021 Z" id="Rectangle-14" fill="#DAD2FF" transform="translate(42.961083, 14.217145) rotate(45.000000) translate(-42.961083, -14.217145) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
