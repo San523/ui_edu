@@ -64,14 +64,14 @@
         <div class="recommend_list" v-for="item in showTrain_list" @click="openDetail(item)">
           <div class="list_img">
             <div>
-              <img :data-original="'data_img/'+item.train_img" :src="'data_img/' + item.train_img" alt="">
+              <img :data-original="'data_img/'+item.t_logo" :src="'data_img/' + item.t_logo" alt="">
             </div>
             <div class="list_text">
-              <p class="recommend_name"><a href="javascript:;">{{item.train_name}}</a></p>
+              <p class="recommend_name"><a href="javascript:;">{{item.t_name}}</a></p>
               <p class="recommend_main recommend_text">主营：<span>{{(item.train_main).join("、")}}</span></p>
               <p class="recommend_course recommend_text secondary">课程：<span>{{(item.train_course).join("、")}}</span></p>
-              <p class="recommend_tel recommend_text">电话：<span>{{item.train_tel}}</span></p>
-              <p class="recommend_add recommend_text">地址：<span>{{item.train_add}}</span></p>
+              <p class="recommend_tel recommend_text">电话：<span>{{item.t_phone}}</span></p>
+              <p class="recommend_add recommend_text">地址：<span>{{item.t_address}}</span></p>
               <!-- <p class="recommend_nearby_text main_none">100m以内</p> -->
             </div>
           </div>
@@ -122,73 +122,73 @@ export default {
       showTrain_list: [],
       //培训班列表数据
       train_list: [{
-          train_img: "shop1.png",
-          train_name: "杨梅红国际私立美术学校",
-          train_tel: "027-88888881",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲16栋三单元1001",
+          t_logo: "shop1.png",
+          t_name: "杨梅红国际私立美术学校",
+          t_phone: "027-88888881",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲16栋三单元1001",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.58353,
             lng: 114.18830
           },
         },
         {
-          train_img: "shop2.png",
-          train_name: "杨梅红国际私立美术学校",
-          train_tel: "027-88888882",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲11栋",
+          t_logo: "shop2.png",
+          t_name: "杨梅红国际私立美术学校",
+          t_phone: "027-88888882",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲11栋",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.58323,
             lng: 114.08830
           },
         },
         {
-          train_img: "shop3.png",
-          train_name: "杨梅红国际私立美术学校",
-          train_tel: "027-88888883",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲10栋三单元1001",
+          t_logo: "shop3.png",
+          t_name: "杨梅红国际私立美术学校",
+          t_phone: "027-88888883",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲10栋三单元1001",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.58315,
             lng: 114.08936
           },
         },
         {
-          train_img: "shop1.png",
-          train_name: "杨梅红国际私立美术学校",
-          train_tel: "027-88888884",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲5栋三单元1001",
+          t_logo: "shop1.png",
+          t_name: "杨梅红国际私立美术学校",
+          t_phone: "027-88888884",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲5栋三单元1001",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.58423,
             lng: 114.08930
           },
         },
         {
-          train_img: "shop2.png",
-          train_name: "杨梅红国际私立美术学校",
-          train_tel: "027-88888885",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
+          t_logo: "shop2.png",
+          t_name: "杨梅红国际私立美术学校",
+          t_phone: "027-88888885",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.58314,
             lng: 114.08933
           },
         },
         {
-          train_img: "shop2.png",
-          train_name: "杨梅红国际私立美术学校",
-          train_tel: "027-88888886",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
+          t_logo: "shop2.png",
+          t_name: "杨梅红国际私立美术学校",
+          t_phone: "027-88888886",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: "",
+          t_latlng: "",
         }
       ],
     }
@@ -203,13 +203,15 @@ export default {
 
   created() {
     //判断显示的列表
-    this.gettrianList()
+    
   },
   mounted() {
     //给顶部栏选项赋值1，选择首页
     this.$store.commit('updateNavBarActive', '1');
+    this.judgeshowTrain_list()
     //IP定位
     this.getLocation();
+    this.gettrianList();
   },
   methods: {
     //获取培训班详情列表

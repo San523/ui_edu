@@ -49,14 +49,14 @@
       <div class="recommend_list" v-for="item in showTrain_list" @click="openDetail(item)">
         <div class="list_img">
           <div>
-            <img :data-original="'data_img/'+item.train_img" :src="'data_img/' + item.train_img" alt="">
+            <img :data-original="'data_img/'+item.t_logo" :src="'data_img/' + item.t_logo" alt="">
           </div>
           <div class="list_text">
-            <p class="recommend_name"><a href="javascript:;">{{item.train_name}}</a></p>
+            <p class="recommend_name"><a href="javascript:;">{{item.t_name}}</a></p>
             <p class="recommend_main recommend_text">主营：<span>{{(item.train_main).join("、")}}</span></p>
             <p class="recommend_course recommend_text secondary">课程：<span>{{(item.train_course).join("、")}}</span></p>
-            <p class="recommend_tel recommend_text">电话：<span>{{item.train_tel}}</span></p>
-            <p class="recommend_add recommend_text">地址：<span>{{item.train_add}}</span></p>
+            <p class="recommend_tel recommend_text">电话：<span>{{item.t_phone}}</span></p>
+            <p class="recommend_add recommend_text">地址：<span>{{item.t_address}}</span></p>
             <p class="recommend_nearby_text main_none distance">{{item.fujinDis}}m</p>
           </div>
         </div>
@@ -132,79 +132,79 @@ export default {
       showExfujinTrain_list: [],
       //培训班列表数据
       train_list: [{
-          train_img: "shop1.png",
+          t_logo: "shop1.png",
           id: "GKfwe000001",
-          train_name: "美术学校1",
-          train_tel: "027-88888881",
-          train_add: "湖北省武汉市街道口",
+          t_name: "美术学校1",
+          t_phone: "027-88888881",
+          t_address: "湖北省武汉市街道口",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.527540,
             lng: 114.346430
           },
         },
         {
-          train_img: "shop2.png",
+          t_logo: "shop2.png",
           id: "0000002",
-          train_name: "东风设计研究院2",
-          train_tel: "027-88888882",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲11栋",
+          t_name: "东风设计研究院2",
+          t_phone: "027-88888882",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲11栋",
           train_main: ["美术", "舞蹈"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.505530,
             lng: 114.163440
           },
         },
         {
-          train_img: "shop3.png",
+          t_logo: "shop3.png",
           id: "0000003",
-          train_name: "江汉大学3",
-          train_tel: "027-88888883",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲10栋三单元1001",
+          t_name: "江汉大学3",
+          t_phone: "027-88888883",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲10栋三单元1001",
           train_main: ["舞蹈", "文化"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.510020,
             lng: 114.160400
           },
         },
         {
-          train_img: "shop1.png",
+          t_logo: "shop1.png",
           id: "0000004",
-          train_name: "经开万达4",
-          train_tel: "027-88888884",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲5栋三单元1001",
+          t_name: "经开万达4",
+          t_phone: "027-88888884",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲5栋三单元1001",
           train_main: ["文化", "主持"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.506768,
             lng: 114.173852
           },
         },
         {
-          train_img: "shop2.png",
+          t_logo: "shop2.png",
           id: "0000005",
-          train_name: "杨梅红国际私立美术学校5",
-          train_tel: "027-88888885",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
+          t_name: "杨梅红国际私立美术学校5",
+          t_phone: "027-88888885",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
           train_main: ["主持", "书法"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: 30.583231,
             lng: 114.088305
           },
         },
         {
-          train_img: "shop2.png",
+          t_logo: "shop2.png",
           id: "0000006",
-          train_name: "杨梅红国际私立美术学校6",
-          train_tel: "027-88888886",
-          train_add: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
+          t_name: "杨梅红国际私立美术学校6",
+          t_phone: "027-88888886",
+          t_address: "湖北省武汉市蔡甸区中法生态城恒大绿洲20栋",
           train_main: ["美术", "音乐"],
           train_course: ["少儿素描", "少儿色彩", "手工艺制作", "国画", "工笔画", "白描"],
-          train_co: {
+          t_latlng: {
             lat: "",
             lng: ""
           },
@@ -241,11 +241,11 @@ export default {
         //console.log(i)
         var targetNode = this.train_list[i];
         for (var j = 0; j < i; j++) {
-          let dis = this.getFlatternDistance(targetNode.train_co.lat, targetNode.train_co.lng, this.train_list[j].train_co.lat, this.train_list[j].train_co.lng)
+          let dis = this.getFlatternDistance(targetNode.t_latlng.lat, targetNode.t_latlng.lng, this.train_list[j].t_latlng.lat, this.train_list[j].t_latlng.lng)
           if (isNaN(dis) || dis < 100) {
             //console.log(dis)
-            this.train_list[j].train_co.lat = parseFloat(this.train_list[j].train_co.lat) + 0.0001
-            this.train_list[j].train_co.lng = parseFloat(this.train_list[j].train_co.lng) + 0.0001
+            this.train_list[j].t_latlng.lat = parseFloat(this.train_list[j].t_latlng.lat) + 0.0001
+            this.train_list[j].t_latlng.lng = parseFloat(this.train_list[j].t_latlng.lng) + 0.0001
           }
         }
       }
@@ -294,7 +294,7 @@ export default {
     judgeAroudClass(X, Y) {
       this.train_Colist = []
       for (var i = this.train_list.length - 1; i >= 0; i--) {
-        let fujinDis = this.getFlatternDistance(this.train_list[i].train_co.lat, this.train_list[i].train_co.lng, this.coordinateX, this.coordinateY)
+        let fujinDis = this.getFlatternDistance(this.train_list[i].t_latlng.lat, this.train_list[i].t_latlng.lng, this.coordinateX, this.coordinateY)
         this.train_list[i].fujinDis = parseInt(fujinDis)
         if (fujinDis < 10000) {
           this.train_list[i].isfujin = true
@@ -456,17 +456,17 @@ export default {
         let trainMeg = []
 
         trainMeg.push({
-          train_name: this.train_Colist[i].train_name,
+          t_name: this.train_Colist[i].t_name,
           train_main: this.train_Colist[i].train_main.join("、")
         })
         //获取培训班地址
-        let address = this.train_Colist[i].train_add;
+        let address = this.train_Colist[i].t_address;
         //获取培训班坐标
-        let latLng = this.train_Colist[i].train_co;
+        let latLng = this.train_Colist[i].t_latlng;
         //将坐标转换为腾讯坐标latLng
         let location = new qq.maps.LatLng(latLng.lat, latLng.lng);
         //获取培训班图片
-        let img = this.train_Colist[i].train_img;
+        let img = this.train_Colist[i].t_logo;
 
         if (latLng.lat == "" || latLng.lng == "") {
           //alert(i)
@@ -477,8 +477,8 @@ export default {
           geocoder.setComplete(function(result) {
             location = result.detail.location;
             //console.log(i)
-            self.train_Colist[i].train_co.lat = location.lat
-            self.train_Colist[i].train_co.lng = location.lng
+            self.train_Colist[i].t_latlng.lat = location.lat
+            self.train_Colist[i].t_latlng.lng = location.lng
             self.create_train(map, location, img, trainMeg[0], self.train_Colist[i])
             //创建培训班地点;
           });
@@ -492,7 +492,7 @@ export default {
     //创建培训班地点
     create_train(map, location, img, trainMeg, item) {
       //创建覆盖物
-      //console.log(trainMeg.train_name);
+      //console.log(trainMeg.t_name);
       let marker = new qq.maps.Marker({
         map: map,
         position: location,
@@ -513,7 +513,7 @@ export default {
       qq.maps.event.addListener(marker, "mouseover", function() {
         //alert("您执行了mouseover事件");
         info.open();
-        info.setContent('<div style="white-space:nowrap;margin:10px;">' + '<p>' + trainMeg.train_name + '</p>' + '<span>主营：' + trainMeg.train_main + '</span>' + '</div>');
+        info.setContent('<div style="white-space:nowrap;margin:10px;">' + '<p>' + trainMeg.t_name + '</p>' + '<span>主营：' + trainMeg.train_main + '</span>' + '</div>');
         info.setPosition(location);
       });
       //监听鼠标hover到覆盖物事件
@@ -634,8 +634,8 @@ export default {
             //console.log(res.result.elements[0].distance + "|" + (i + 1) + "|" + (j + 1));
             if (res.result.elements[0].distance < 100) {
 
-              this.train_list[j].train_co.lat = this.train_list[j].train_co.lat + 0.0005
-              this.train_list[j].train_co.lng = this.train_list[j].train_co.lng + 0.0005
+              this.train_list[j].t_latlng.lat = this.train_list[j].t_latlng.lat + 0.0005
+              this.train_list[j].t_latlng.lng = this.train_list[j].t_latlng.lng + 0.0005
             }
           } else {
             console.log(res.message)
